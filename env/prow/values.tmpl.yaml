@@ -12,6 +12,8 @@ buildnum:
   enabled: false
 pipelinerunner:
   enabled: "true"
+  env:
+    USE_META_PIPELINE: "false"
 tillerNamespace: ""
 
 sinker:
